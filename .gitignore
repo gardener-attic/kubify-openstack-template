@@ -4,3 +4,9 @@ test.auto.tfvars
 gen/
 tmp/
 *.sw[pq]
+!/gen
+/gen/*
+!/gen/assets/
+/gen/assets/*
+!/gen/assets/auth
+!/gen/nodes_privatekey.pem

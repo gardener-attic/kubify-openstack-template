@@ -1,0 +1,11 @@
+kubify-openstack-template: # todo: edit me after copying
+  template: 'default'
+  base_definition: ~
+  variants:
+    release:
+      traits:
+        component_descriptor: ~
+        version:
+          preprocess: 'finalise'
+        release:
+          nextversion: 'bump_minor'

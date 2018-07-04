@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -e
+
+${ADD_DEPENDENCIES_CMD} \
+  --container-image-dependencies \
+    '"name": "image1", "version": "1.0.0", "image_reference": "gcr.io/example/image:1.0.0"'
+
+# cp after we are done patching
+cp "${BASE_DEFINITION_PATH}" "${COMPONENT_DESCRIPTOR_PATH}"

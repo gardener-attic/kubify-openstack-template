@@ -56,7 +56,7 @@ addons = {
 
 deploy_tiller = "false"
 
-event_ttl = "730h0m0s"
+event_ttl = "168h0m0s"
 
 #
 # use htpasswd to create password entries

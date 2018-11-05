@@ -58,6 +58,8 @@ deploy_tiller = "false"
 
 event_ttl = "168h0m0s"
 
+selfhosted_etcd = "true"
+
 #
 # use htpasswd to create password entries
 # example here: admin:admin

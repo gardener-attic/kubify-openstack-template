@@ -58,7 +58,7 @@ deploy_tiller = "false"
 
 event_ttl = "168h0m0s"
 
-selfhosted_etcd = "true"
+selfhosted_etcd = "false"
 
 #
 # use htpasswd to create password entries

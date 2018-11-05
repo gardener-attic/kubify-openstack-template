@@ -1,3 +1,4 @@
+.vscode/
 .terraform/
 terraform/
 test.auto.tfvars

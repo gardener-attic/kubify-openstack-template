@@ -1,7 +1,7 @@
 kubify-openstack-template: # todo: edit me after copying
   template: 'default'
   base_definition: ~
-  variants:
+  jobs:
     release:
       traits:
         component_descriptor: ~
